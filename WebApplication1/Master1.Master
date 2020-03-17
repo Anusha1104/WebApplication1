@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master1.master.cs" Inherits="WebApplication1.Master1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Styles/StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+        .auto-style2 {
+            position: fixed;
+            left: -2px;
+            top: -8px;
+            width: 1576px;
+            height: 86px;
+        }
+        .auto-style3 {
+            position: fixed;
+            left: 13px;
+            top: 116px;
+            width: 209px;
+            height: 377px;
+            margin-right: 107px;
+        }
+        .auto-style4 {
+            position: absolute;
+            height: 155%;
+            width: 100%;
+            left: -12px;
+            top: -23px;
+            margin-bottom: 0px;
+        }
+         .auto-style5 {
+             position: fixed;
+             left: 253px;
+             top: 130px;
+             width: 755px;
+             height: 160px;
+         }
+        </style>
+</head>
+<body>
+     <div  class="auto-style2">
+         <img src="Images/img1.jpg" class="auto-style4" />
+      
+   </div>
+    <div  class="auto-style3">
+       <ul>
+  <li><a class="active" href="Home.aspx">Home</a></li>
+ <li><a href="Login.aspx">Login</a></li>
+</ul>
+        </div>
+    <form id="form1" runat="server">
+        <div class="auto-style5">
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
